@@ -2,4 +2,5 @@
 
 import getData from './app.js'
 
-getData(1)
+let userData = await getData(1);
+console.log(userData);
